@@ -7,13 +7,29 @@
 	    <meta charset="utf-8" />
 	    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	    <style type="text/css">
+	    	{
+	    		box-sizing: border-box;
+	    	}
+	    	.header {
+	    		width: 25%;
+	    		float: left;
+	    		
+	    	}
+	    	.header_list {
+	    		width: 75%;
+	    		float: right;
+	    		
+	    	}
+
+	    </style>
 	    
 	</head>
 
 	<body>
 
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/9n04SEzuvXo" frameborder="0" allowfullscreen align="right"></iframe>
-	
+
 		<h1>Hello World!</h1>
 		<h2>A few facts about the world we live in.</h2>
 
@@ -23,9 +39,9 @@
 
 		<hr>
 
-		<h3>About The Earth</h3>
+		<h3 class="header">About The Earth :</h3>
 
-		<ul>
+		<ul class="header_list">
 			<li>Equatorial Diameter:	12,756 km</li>
 			<li>Polar Diameter:	12,714 km</li>
 			<li>Mass:	5.97 x 10^24 kg</li>
@@ -35,19 +51,19 @@
 			<li>Surface Temperature:	-88 to 58°C</li>
 		</ul>
 
-		<hr>
+		
 
-		<h3>Top 3 facts about the Earth</h3>
+		<h3 class="header">Top 3 facts about the Earth :</h3>
 
-		<ol>
+		<ol class="header_list">
 			<li>The Earth’s rotation is gradually slowing.</li>
 			<li>Earth has a powerful magnetic field.</li>
 			<li>There is only one natural satellite of the planet Earth.</li>
 		</ol>
 
-		<hr>
+		
 
-		<table>
+		<table class="header">
 			<thead>
 				<tr>
 					<th>Name</th>
@@ -69,11 +85,11 @@
 			</tbody>
 		</table>
 
-		<hr>
+		
 
 		<form action="http://space-facts.com/earth/">
-			<p>Want to know more?</p>
-			<p><input type="submit" value="Click Here!"></p>
+			<p class="header">Want to know more?</p>
+			<p class="header_list"><input type="submit" value="Click Here!"></p>
 		</form>
 
 	</body>
